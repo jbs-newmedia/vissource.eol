@@ -1,0 +1,8 @@
+.toolbox_core table.core_table tr.core_data td.core_title {
+	text-align:left;
+	width:40%;
+}
+
+.toolbox_core table.core_table tr.core_data td.core_value {
+	width:60%;
+}

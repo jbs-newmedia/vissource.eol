@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "vis2.ddm4",
+    "author": "Juergen Schwind",
+    "copyright": "Juergen Schwind",
+    "link": "http:\/\/oswframe.com",
+    "license": "GNU General Public License",
+    "package": "vis2.ddm4",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vis"
+  },
+  "required": []
+}

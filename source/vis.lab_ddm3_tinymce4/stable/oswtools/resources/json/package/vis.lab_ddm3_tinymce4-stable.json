@@ -1,0 +1,27 @@
+{
+  "info": {
+    "name": "vis.lab_ddm3_tinymce4",
+    "author": "Juergen Schwind",
+    "copyright": "Juergen Schwind",
+    "link": "http:\/\/oswframe.com",
+    "license": "GNU General Public License",
+    "package": "vis.lab_ddm3_tinymce4",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vis"
+  },
+  "required": [
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.ddm3_tinymce4",
+      "release": "stable"
+    },
+    {
+      "serverlist": "vis",
+      "package": "visproject.lab",
+      "release": "stable"
+    }
+  ]
+}

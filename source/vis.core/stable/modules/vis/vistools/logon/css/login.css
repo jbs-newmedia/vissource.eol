@@ -1,0 +1,154 @@
+/*
+ * login form
+ */
+
+#container_login {
+	text-align:left;
+	width:450px;
+	margin:auto auto;
+	padding-top:40px;
+}
+
+#container_login img {
+	margin:auto auto;
+	display:block;
+}
+
+#container_login h1 {
+	display:block;
+	text-align:center;
+}
+
+#container_login h1 {
+	text-align:center;
+	padding-top:30px;	
+	margin-bottom:30px;
+}
+
+#container_version {
+	text-align:center;
+	margin-top:48px;
+	font-size:11px;
+	margin-bottom:24px;
+	color:#aaa;
+}
+
+
+#container_loginbox {
+    margin-top:30px;
+    border:1px solid #000;
+    background:#eee;
+    width:450px;
+    margin:auto auto;
+}
+
+#container_loginbox .container_head {
+    font-family:verdana;
+    font-size:14px;
+    font-weight:bold;
+    color:#000;
+    background:#ddd;
+    padding:10px;
+    border-bottom:1px solid #000;
+}
+
+#container_loginbox .container_fields {
+    padding:10px 10px;
+}
+
+#container_loginbox .container_fields .item span.left {
+	font-family:verdana;
+    font-size:13px;
+    color:#444;
+    font-weight:bold;
+    padding:8px 0px 4px 0px;
+    width:100px;
+    display:block;
+    float:left;
+}
+
+#container_loginbox .container_fields .item span.right {
+    padding:3px 0px;
+    width:320px;
+    display:block;
+    float:right;
+}
+
+#container_loginbox .container_fields .item span.right input {
+	height:20px;
+	width:300px;
+	font-family:verdana;
+	font-size:13px;
+	color:#000;
+}
+
+#container_loginbox .container_fields .item span.right select {
+	height:26px;
+	padding:3px 3px 3px 0px;
+	font-family:verdana;
+	font-size:13px;
+	color:#000;
+}
+
+#container_loginbox .container_footer {
+	text-align:right;
+    background:#ddd;
+    padding:10px;
+    border-top:1px solid #000;
+}
+
+.container_msgbox {
+    margin-top:50px;
+    border:1px solid #000;
+    background:#eee;
+    width:450px;
+    margin:auto auto;
+    margin-bottom:20px;
+}
+
+.container_msgbox .container_head {
+    font-family:verdana;
+    font-size:14px;
+    font-weight:bold;
+    color:#000;
+    background:#ddd;
+    padding:10px;
+    border-bottom:1px solid #000;
+}
+
+.container_msgbox .container_fields {
+	padding:10px 10px;
+	font-family:verdana;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.container_msgbox .container_fields .item {
+	color:#444;
+}
+
+.container_msgbox_error {
+	background-color:#ffdfdf;
+}
+
+.container_msgbox_error .container_head {
+	background-color:#dd9494;
+}
+
+.container_msgbox_success {
+	background-color:#dfffdf;
+}
+
+.container_msgbox_success .container_head {
+	background-color:#94dd94;
+}
+
+#container_version {
+	font-family:verdana;
+	font-size:10px;
+	color:#bbb;	
+}
+
+.clear {
+	clear:both;
+}

@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "vis.upgrade",
+    "author": "Juergen Schwind",
+    "copyright": "Juergen Schwind",
+    "link": "http:\/\/oswframe.com",
+    "license": "GNU General Public License",
+    "package": "vis.upgrade",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vis"
+  },
+  "required": []
+}

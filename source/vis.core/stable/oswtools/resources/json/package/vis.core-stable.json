@@ -1,0 +1,97 @@
+{
+  "info": {
+    "name": "vis.core",
+    "author": "Juergen Schwind",
+    "copyright": "Juergen Schwind",
+    "link": "http:\/\/oswframe.com",
+    "license": "GNU General Public License",
+    "package": "vis.core",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vis"
+  },
+  "required": [
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.breadcrumb",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.buildpages",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.core",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.database",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.database_mysql",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.ddm3",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.ddm3_datepicker",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.ddm3_idna",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.ddm3_vis",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.form",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.imagelib",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.imageoptimizer",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.jquery2",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.jquery2_ui1_theme_ddm3",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.jquery2_ui1",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.smartoptimizer",
+      "release": "stable"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "DDM2DDM3",
+    "author": "Juergen Schwind",
+    "copyright": "Juergen Schwind",
+    "link": "http:\/\/oswframe.com",
+    "license": "GNU General Public License",
+    "package": "vistools.ddm2ddm3",
+    "version": "",
+    "release": "stable",
+    "group": "tool",
+    "unique": false,
+    "serverlist": "vis"
+  },
+  "required": []
+}

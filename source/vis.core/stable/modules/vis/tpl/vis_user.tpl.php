@@ -1,0 +1,1 @@
+<?php echo osW_DDM3::getInstance()->runDDMTPL($ddm_group)?>

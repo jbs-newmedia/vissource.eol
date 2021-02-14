@@ -1,0 +1,27 @@
+{
+  "info": {
+    "name": "Ticket",
+    "author": "Juergen Schwind",
+    "copyright": "Juergen Schwind",
+    "link": "http:\/\/oswframe.com",
+    "license": "GNU General Public License",
+    "package": "visproject.ticket",
+    "version": "",
+    "release": "stable",
+    "group": "project",
+    "unique": false,
+    "serverlist": "vis"
+  },
+  "required": [
+    {
+      "serverlist": "vis",
+      "package": "vis.core",
+      "release": "stable"
+    },
+    {
+      "serverlist": "vis",
+      "package": "vis.mailer",
+      "release": "stable"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+#vis_notify {
+	position:fixed;
+	bottom:0px;
+	right:0px;
+}
+
+.vis_notify {
+	padding:10px;
+	margin:0px 10px 10px 0px;
+	margin-bottom:10px;
+	float:right;
+	clear:right;
+	font-family:verdana;
+	font-size:13px;
+}
+
+.vis_notify a {
+	font-family:verdana;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.vis_notify a:hover {
+	text-decoration:underline;
+}
+
+.vis_notify_default {
+	border:3px solid #fff;
+	color:#000;
+	background-color:#ddd;
+}
+
+.vis_notify_default a {
+	color:#000;
+}
+
+.vis_notify_error {
+	border:3px solid #fff;
+	color:#fff;
+	background-color:#c00000;
+}
+
+.vis_notify_error a {
+	color:#fff;
+}
+
+.vis_notify_success {
+	border:3px solid #fff;
+	color:#fff;
+	background-color:#00c000;
+}
+
+.vis_notify_success a {
+	color:#fff;
+}
+
+.vis_notify_info {
+	border:3px solid #fff;
+	color:#fff;
+	background-color:#f0a000;
+}
+
+.vis_notify_info a {
+	color:#fff;
+}

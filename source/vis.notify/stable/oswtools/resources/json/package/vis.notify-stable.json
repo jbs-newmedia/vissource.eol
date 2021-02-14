@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "vis.notify",
+    "author": "Juergen Schwind",
+    "copyright": "Juergen Schwind",
+    "link": "http:\/\/oswframe.com",
+    "license": "GNU General Public License",
+    "package": "vis.notify",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vis"
+  },
+  "required": [
+    {
+      "serverlist": "vis",
+      "package": "vis.core",
+      "release": "stable"
+    }
+  ]
+}

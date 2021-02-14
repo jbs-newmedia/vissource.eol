@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "DBClear",
+    "author": "Juergen Schwind",
+    "copyright": "Juergen Schwind",
+    "link": "http:\/\/oswframe.com",
+    "license": "GNU General Public License",
+    "package": "vistools.dbclear",
+    "version": "",
+    "release": "stable",
+    "group": "tool",
+    "unique": false,
+    "serverlist": "vis"
+  },
+  "required": []
+}

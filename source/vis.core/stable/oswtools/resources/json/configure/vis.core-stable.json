@@ -1,0 +1,57 @@
+{
+  "configure": {
+    "middle": {
+      "class_osw_vis_enabled": true,
+      "vis_majorrelease": 1,
+      "vis_minorrelease": 8,
+      "vis_patchlevel": 0,
+      "vis_version": "",
+      "vis_title": "VIS",
+      "vis_navigation_char": " » ",
+      "vis_toolswitch": true,
+      "vis_mandant": false,
+      "vis_mandantswitch": false,
+      "vis_logo_login_name": "oswframe-512.png",
+      "vis_logo_login_module": "vis",
+      "vis_logo_login_title": "osWFrame VIS",
+      "vis_logo_login_longest": 220,
+      "vis_logo_login_height": "",
+      "vis_logo_login_width": "",
+      "vis_login_tool": "",
+      "vis_logo_navi_name": "oswframe-512.png",
+      "vis_logo_navi_module": "vis",
+      "vis_logo_navi_title": "osWFrame VIS",
+      "vis_logo_navi_longest": 120,
+      "vis_logo_navi_height": "",
+      "vis_logo_navi_width": "",
+      "vis_logo_navi_align": "center",
+      "vis_login_module": "logon",
+      "vis_login_cookie_lifetime": 365,
+      "class_osw_vis_badge_enabled": true,
+      "class_osw_vis_group_enabled": true,
+      "class_osw_vis_manager_enabled": true,
+      "class_osw_vis_mandant_enabled": true,
+      "class_osw_vis_navigation_enabled": true,
+      "class_osw_vis_permission_enabled": true,
+      "class_osw_vis_protect_enabled": true,
+      "class_osw_vis_user_enabled": true,
+      "vis_user_password_length_min": 8,
+      "vis_user_password_length_max": 32,
+      "vis_user_phone_preg": "",
+      "vis_user_fax_preg": "",
+      "vis_user_mobile_preg": "",
+      "vis_protect_attempts": 5,
+      "vis_protect_attempts_max": 25,
+      "vis_protect_time": 300
+    }
+  },
+  "htaccess": {
+    "middle": [
+      "RewriteRule ^vis\/([a-zA-Z0-9-_]+)\/([a-zA-Z0-9-_]+)$ ?module=vis&vistool=$1&vispage=$2&%{QUERY_STRING}",
+      "RewriteRule ^vis\/([a-zA-Z0-9-_]+)\/$ ?module=vis&vistool=$1&%{QUERY_STRING}",
+      "RewriteRule ^vis\/([a-zA-Z0-9-_]+)$ ?module=vis&vistool=$1&%{QUERY_STRING}",
+      "RewriteRule ^vis\/$ ?module=vis%{QUERY_STRING}",
+      "RewriteRule ^vis$ ?module=vis%{QUERY_STRING}"
+    ]
+  }
+}

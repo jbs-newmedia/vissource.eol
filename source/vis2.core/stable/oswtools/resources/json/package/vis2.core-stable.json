@@ -1,0 +1,102 @@
+{
+  "info": {
+    "name": "vis2.core",
+    "author": "Juergen Schwind",
+    "copyright": "Juergen Schwind",
+    "link": "http:\/\/oswframe.com",
+    "license": "GNU General Public License",
+    "package": "vis2.core",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vis"
+  },
+  "required": [
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.bootstrap4",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.bootstrap4_datatables",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.bootstrap4_datatables_responsive",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.bootstrap4_notify",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.bootstrap4_sbadmin2",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.bootstrap4_select",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.breadcrumb",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.core",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.database_mysql",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.ddm4",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.fontawesome5",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.form",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.fpdi",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.imagelib",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.imageoptimizer",
+      "release": "stable"
+    },
+    {
+      "serverlist": "oswframe",
+      "package": "oswframe.smartoptimizer",
+      "release": "stable"
+    },
+    {
+      "serverlist": "vis",
+      "package": "vis2.ddm4",
+      "release": "stable"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "CreateArray",
+    "author": "Juergen Schwind",
+    "copyright": "Juergen Schwind",
+    "link": "http:\/\/oswframe.com",
+    "license": "GNU General Public License",
+    "package": "vistools.createarray",
+    "version": "",
+    "release": "stable",
+    "group": "tool",
+    "unique": false,
+    "serverlist": "vis"
+  },
+  "required": []
+}

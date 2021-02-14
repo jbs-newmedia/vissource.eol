@@ -1,0 +1,11 @@
+body {
+	padding-left:0px;
+}
+
+#container_tool_navigation {
+	display:none;
+}
+
+#container_tool_frame {
+	margin-left:0px;
+}

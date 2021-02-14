@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "Lab",
+    "author": "Juergen Schwind",
+    "copyright": "Juergen Schwind",
+    "link": "http:\/\/oswframe.com",
+    "license": "GNU General Public License",
+    "package": "visproject.lab",
+    "version": "",
+    "release": "stable",
+    "group": "project",
+    "unique": false,
+    "serverlist": "vis"
+  },
+  "required": [
+    {
+      "serverlist": "vis",
+      "package": "vis.core",
+      "release": "stable"
+    }
+  ]
+}

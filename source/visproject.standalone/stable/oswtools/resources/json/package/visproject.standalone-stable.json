@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "Standalone",
+    "author": "Juergen Schwind",
+    "copyright": "Juergen Schwind",
+    "link": "http:\/\/oswframe.com",
+    "license": "GNU General Public License",
+    "package": "visproject.standalone",
+    "version": "",
+    "release": "stable",
+    "group": "example",
+    "unique": false,
+    "serverlist": "vis"
+  },
+  "required": [
+    {
+      "serverlist": "vis",
+      "package": "vis.core",
+      "release": "stable"
+    }
+  ]
+}

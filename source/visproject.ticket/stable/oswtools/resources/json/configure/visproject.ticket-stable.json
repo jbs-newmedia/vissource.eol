@@ -1,0 +1,11 @@
+{
+  "configure": {
+    "middle": {
+      "class_osw_vis_ticket_enabled": true,
+      "vis_ticket_email_from": "",
+      "vis_ticket_email_log": "",
+      "vis_ticket_permission_modus": "both",
+      "vis_ticket_hour_per_day": 8
+    }
+  }
+}

@@ -1,0 +1,97 @@
+/* general tags */
+
+html {
+	font-size:14px;
+}
+
+input, select, textarea {
+	font-size:13px;
+}
+
+body {
+	padding:0px;
+	margin:0px;
+	color:#000;
+	background-color:#F5F5F5;
+}
+
+
+h1,
+h2,
+h3 {
+	font-family:verdana;
+	color:#000;
+	font-weight:bold;
+}
+
+h1 {
+	font-size:14px;
+
+}
+
+h2 {
+	font-size:13px;
+}
+
+h3 {
+	font-size:13px;
+}
+
+a {
+	font-family:verdana;
+}
+
+a:link,
+a:visited,
+a:active {
+	text-decoration:none;
+	color:#0000ff;
+}
+
+a:hover {
+	text-decoration:underline;
+	color:#ff0000;
+}
+
+a.active {
+	color:#ff0000;
+}
+
+a img {
+	border:0px;
+}
+
+hr {
+	color:#000;
+	background-color:#000;
+	border:0;
+    height:1px;
+}
+
+form {
+	padding:0px;
+	margin:0px;
+	display:inline;
+}
+
+#vis_loader {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	display: none;
+	opacity: 0.7;
+	background-color: #fff;
+	z-index: 99;
+	text-align: center;
+	color:#000;
+	font-size:30px;
+	line-height:100%;
+}
+
+#vis_loader span {
+	position: absolute;
+	top: 45%;
+	z-index: 100;
+}

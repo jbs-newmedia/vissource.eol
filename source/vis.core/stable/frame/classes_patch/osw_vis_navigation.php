@@ -118,6 +118,18 @@ if (($av_tbl<=2)&&($ab_tbl<1)) {
 	$av_tbl=2;
 	$ab_tbl=1;
 }
+
+if (($av_tbl<=2)&&($ab_tbl<2)) {
+	$QwriteData=osW_Database::getInstance()->query('ALTER TABLE :table: ADD navigation_intern_sortorder INT( 11 ) UNSIGNED NOT NULL AFTER navigation_sortorder, ADD INDEX ( navigation_intern_sortorder )');
+	$QwriteData->bindTable(':table:', $table);
+	$QwriteData->execute();
+
+	$QwriteData=osW_Database::getInstance()->query('ALTER TABLE :table: COMMENT = \'2.2\';');
+	$QwriteData->bindTable(':table:', $table);
+	$QwriteData->execute();
+	$av_tbl=2;
+	$ab_tbl=2;
+}
 #============================================================================================================================
 # check Tabelle#1 - END
 #============================================================================================================================
